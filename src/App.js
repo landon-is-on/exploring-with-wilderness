@@ -9,6 +9,10 @@ import Contact from './components/pages/contact';
 import SignUp from './components/pages/signup';
 import Hero from './components/Hero/index';
 
+import Cards from './components/trending/Cards';
+
+import Gap from './components/gap/index';
+
 function App() {
   return (
     <Router>
@@ -20,6 +24,8 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Hero/>
+      <Cards/>
+    <Gap/>
     </Router>
   );
 }
