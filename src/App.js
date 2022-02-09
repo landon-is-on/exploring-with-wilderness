@@ -13,6 +13,8 @@ import Cards from './components/trending/Cards';
 
 import Gap from './components/gap/index';
 
+import FContainer from './components/choose-us/group';
+
 function App() {
   return (
     <Router>
@@ -26,6 +28,12 @@ function App() {
       <Hero/>
       <Cards/>
     <Gap/>
+    
+    <FContainer/>
+      
+    
+      
+
     </Router>
   );
 }
