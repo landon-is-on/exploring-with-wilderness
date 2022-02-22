@@ -8,5 +8,6 @@ justify-content:center;
 `;
 
  export const Tital = styled.h1`
- margin-top: 5rem
+ margin-top: 3rem;
+ margin-bottom: 1rem
  `

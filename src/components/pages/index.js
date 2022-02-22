@@ -1,17 +1,26 @@
 import React from 'react';
 
+
+import Hero from '../../components/Hero/index';
+
+import Cards from '../../components/trending/Cards';
+
+import Gap from '../../components/gap/index';
+
+import FContainer from '../../components/choose-us/group';
+
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Home</h1>
-    </div>
+   <> 
+      <Hero/>
+      <Cards/>
+    <Gap/>
+    <FContainer/>
+      
+    
+      
+
+    </>
   );
 };
 
