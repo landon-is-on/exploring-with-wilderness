@@ -8,8 +8,8 @@ section {
 .section-heading {
   text-transform: uppercase;
   font-size: 28px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .row {
@@ -17,7 +17,7 @@ section {
   flex-wrap: wrap;
 }
 .column {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   padding: 0 1em 1em 1em;
   text-align: center;

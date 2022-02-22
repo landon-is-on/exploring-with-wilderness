@@ -19,10 +19,10 @@
 
 .content-section .title {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 18px;
 }
 .content-section .content h3 {
-  margin-top: 20px;
+  margin-top: 4rem;
   color: #5d5d5d;
   font-size: 21px;
 }
@@ -44,14 +44,14 @@
   letter-spacing: 1.5px;
 }
 .content-section .content .button a:hover {
-  background-color: #a52a2a;
+  background-color: #0077b6;
   color: #fff;
 }
 .content-section .social {
   margin: 40px 40px;
 }
 .content-section .social i {
-  color: #a52a2a;
+  color: #0077b6;
   font-size: 30px;
   padding: 0px 10px;
 }
