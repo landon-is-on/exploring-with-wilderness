@@ -9,7 +9,7 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-hammer"></i>
             </div>
@@ -21,7 +21,7 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-brush"></i>
             </div>
@@ -33,7 +33,7 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-wrench"></i>
             </div>
@@ -45,7 +45,7 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-truck-pickup"></i>
             </div>
@@ -57,7 +57,7 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-broom"></i>
             </div>
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <div className="card">
+          <div className="card_services">
             <div className="icon-wrapper">
               <i className="fas fa-plug"></i>
             </div>
