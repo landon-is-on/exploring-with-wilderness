@@ -5,6 +5,10 @@ display:flex;
 flex-direction:row;
 align-items: center;
 justify-content:center;
+ @media (max-width: 1370px) {
+    flex-direction: column;
+}
+
 `;
 
  export const Tital = styled.h1`

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import Hero from '../../components/Hero/index';
+import Hero from '../Hero/Hero.component';
 
 import Cards from '../../components/trending/Cards';
 
@@ -19,9 +19,6 @@ const Home = () => {
     <Gap/>
     <FContainer/>
       <Footer/>
-    
-      
-
     </>
   );
 };

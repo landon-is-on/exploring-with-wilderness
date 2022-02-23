@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Navbar.styles.css"
 import {
   Nav,
   NavLink,
@@ -13,12 +14,12 @@ const Navbar = () => {
         <> 
         <Nav>
             <NavLink to='/home'>
-                <h1>Logo</h1>
+               <i class="fa-solid fa-mountain icon"></i>
                 </NavLink>
                 <Bars/>
             <NavMenu>
             <NavLink to='/about' activeStyle>
-                about
+                About
             </NavLink>
             <NavLink to='/services' activeStyle>
                 Services
@@ -26,12 +27,10 @@ const Navbar = () => {
             <NavLink to='/contact-us' activeStyle>
                 Contact us
             </NavLink>
-            <NavLink to='/sign-up' activeStyle>
-                Sign up
-            </NavLink>
+            
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to='/signin'> Sign In </NavBtnLink>
+                <NavBtnLink to='/sign-up' activeStyle> Sign In </NavBtnLink>
             </NavBtn>
         </Nav>
         </>
