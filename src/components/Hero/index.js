@@ -9,7 +9,7 @@ return (
     <HeroContainer>
     <HeroCard> 
         
-        <HeroP>Ready to <HeroButton>explore</HeroButton> Like never before.</HeroP>
+        <HeroP>Ready to <HeroButton onClick={()=> window.open("https://www.viator.com/?eap=adirnxenXX-subbrand-72464&aid=vba72464en", "_blank")}>explore</HeroButton> Like never before.</HeroP>
                 
     </HeroCard>
     </HeroContainer>

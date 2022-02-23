@@ -6,7 +6,7 @@ const Gap = () => {
 return ( 
 <GapContainer>
     <GapCard>
-        <GapP> Sunset's you have never seen </GapP>
+        <GapP> Sunset's like you have never seen </GapP>
     </GapCard>
 </GapContainer>
     

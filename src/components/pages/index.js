@@ -9,6 +9,8 @@ import Gap from '../../components/gap/index';
 
 import FContainer from '../../components/choose-us/group';
 
+import Footer from '../../components/footer/footer';
+
 const Home = () => {
   return (
    <> 
@@ -16,7 +18,7 @@ const Home = () => {
       <Cards/>
     <Gap/>
     <FContainer/>
-      
+      <Footer/>
     
       
 
