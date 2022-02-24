@@ -1,7 +1,4 @@
-import{HeroContainer, HeroP} from './HeroElement';
-import {HeroCard} from './HeroElement';
 import '../Hero/Hero.styles.css';
-
 const Hero = () => {
 return ( 
     <div className="hero-container">
@@ -12,6 +9,5 @@ return (
     </div>
     )
 }
-
 export default Hero;
 
