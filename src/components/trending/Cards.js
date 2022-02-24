@@ -8,7 +8,7 @@ import park from '../../pictures/park.png';
 import beach from '../../pictures/beach.jpg';
 function Cards() {
   return (
-    <div className='cards'>
+    <div  className='cards'>
       <h1>Featured Locations</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -51,6 +51,4 @@ function Cards() {
     </div>
   );
 }
-
-
 export default Cards;
