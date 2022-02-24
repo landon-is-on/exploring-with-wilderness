@@ -5,7 +5,6 @@ const Contact = () => {
   return (
 	<>
   <div class="contact-section">
-
   <h1 className="signUp-T">Contact Us</h1>
   <div className="border"></div>
   <form className="contact-form" action="index.html" method="post">
@@ -16,9 +15,7 @@ const Contact = () => {
     <input type="submit" className="contact-form-btn" value="Send"/>
   </form>
 </div>
-
 </>
-
       );
       };
 

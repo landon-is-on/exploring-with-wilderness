@@ -1,13 +1,9 @@
 import React from 'react';
-
 import'./pages-css/about.css';
-
 const About = () => {
   return (
-     
    <div> 
 	<title>About Us Section</title>
-
 <body>
 	<div className="section">
 		<div className="container">
@@ -17,8 +13,7 @@ const About = () => {
 				</div>
 				<div className="content">
 					<h3>From humble beginnings to being your favorite travel booker. </h3>
-					<p>Our founder Landon Smothers started in a small town booking local neighbors. to tap into his full potential at the age of 25. With one goal in mind, he set out to make a great website where any customer of any race or ethnicity can come and make their dreams come true.</p>
-					
+					<p>Our founder Landon Smothers started in a small town booking local neighbors. to tap into his full potential at the age of 25. With one goal in mind, he set out to make a great website where any customer of any race or ethnicity can come and make their dreams come true.</p>			
 				</div>
 				<div className="social">
 					<a href="https://www.facebook.com/adventure/"><i class="fab fa-facebook-f"></i></a>
@@ -26,17 +21,10 @@ const About = () => {
 					<a href="https://www.instagram.com/adventure/?hl=en"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
-			
 		</div>
 	</div>
-
-	
 </body>   
-      
    </div>
-      
-
-  
   );
 };
 

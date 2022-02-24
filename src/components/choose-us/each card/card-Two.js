@@ -2,7 +2,6 @@ import React from 'react'
 
 const CARD_2 = () => {
 return ( 
-
     <div class="card">
       <div class="card-image card2"></div>
       <div class="card-text card2">

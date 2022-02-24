@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: f0efeb;
+  background: #f0efeb;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,6 @@ export const Nav = styled.nav`
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
-
 export const NavLink = styled(Link)`
   color: black;
   font-weight: 600;
@@ -29,7 +28,6 @@ export const NavLink = styled(Link)`
     color: #0077b6;
   }
 `;
-
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
@@ -43,7 +41,6 @@ export const Bars = styled(FaBars)`
     cursor: pointer;
   }
 `;
-
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
@@ -57,7 +54,6 @@ export const NavMenu = styled.div`
     display: none;
   }
 `;
-
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -69,7 +65,6 @@ export const NavBtn = styled.nav`
     display: none;
   }
 `;
-
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #0077b6;

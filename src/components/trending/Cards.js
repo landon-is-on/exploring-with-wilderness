@@ -6,9 +6,6 @@ import barca from '../../pictures/barca.png';
 import wales from '../../pictures/wales.png'; 
 import park from '../../pictures/park.png';
 import beach from '../../pictures/beach.jpg';
-/*
-*/
-
 function Cards() {
   return (
     <div className='cards'>

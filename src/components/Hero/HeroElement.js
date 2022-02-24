@@ -13,7 +13,6 @@ export const HeroContainer = styled.div`
   font-weight: bold;
   border: 3px solid red;
   `;
-
 export const HeroCard = styled.div`
 display: flex;
  flex-direction: column;
@@ -21,14 +20,12 @@ display: flex;
   align-items: center;
   border: red solid 3px
   `
-
 export const HeroP = styled.h1`
 color: #ddd;
 font-size: 5rem;
 margin: 0 auto;
 border: red solid 3px;
 `
-
 export const HeroButton = styled.button`
 margin-top: 5rem;
 border: none;
@@ -41,7 +38,6 @@ color: white;
 font-weight: 600;
 cursor: grab;
 transition: all 0.2s ease-in-out;
-
 &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import sunset from './../../pictures/sunset.jpg'
-
-
+/*----SUNSET  STYLES-------*/ 
 export const GapContainer = styled.div`
 display:flexbox;  
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -13,10 +12,8 @@ display:flexbox;
    align-items: center;
 `
 
-
 export const GapCard = styled.div`
 display:flex; 
-
 `
 
 export const GapP = styled.h1`

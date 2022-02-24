@@ -1,10 +1,7 @@
 import React from 'react' 
 
-
-
 const CARD_3 = () => {
 return ( 
-
    <div class="card">
         <div class="card-image card3"></div>
         <div class="card-text card3">
@@ -27,7 +24,6 @@ return (
           </div>
         </div>
       </div>
-
 )
 }
 

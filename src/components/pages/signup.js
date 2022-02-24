@@ -2,7 +2,6 @@ import React from 'react';
 import './pages-css/signUp.css';
 import bpic from '../../pictures/barca.png';
 import fpic from '../../pictures/beach.jpg';
-
 const SignUp = () => {
   return (
     <body className="sign-up-body">

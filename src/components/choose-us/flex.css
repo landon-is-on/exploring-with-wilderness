@@ -1,3 +1,5 @@
+/*STYLES FOR CARD SEPRETE*/
+
 .card {
   display: grid;
   grid-template-columns: 350px;
@@ -107,5 +109,4 @@
 .card-stats.card3 {
   background: rgb(0, 189, 63);
 }
-
 /*------media------*/

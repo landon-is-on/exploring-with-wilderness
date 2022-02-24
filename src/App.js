@@ -2,14 +2,11 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 import Home from './components/pages/index';
 import About from './components/pages/about';
 import Services from './components/pages/services';
 import Contact from './components/pages/contact';
 import SignUp from './components/pages/signup';
-
-
 function App() {
   return (
     <Router>
@@ -24,5 +21,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

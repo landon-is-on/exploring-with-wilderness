@@ -1,6 +1,5 @@
 import React from 'react' 
  
-
 const CARD_1 = () => {
 return ( 
 
@@ -26,7 +25,6 @@ return (
     </div>
   </div>
 </div>
-
 )
 }
 export default CARD_1;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+/*-------------STLYE FOR CARDS TOGETHER------------*/
 export const Container = styled.div`
 display:flex;
 flex-direction:row;
@@ -10,7 +10,6 @@ justify-content:center;
 }
 
 `;
-
  export const Tital = styled.h1`
  margin-top: 3rem;
  margin-bottom: 1rem
